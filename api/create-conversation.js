@@ -13,6 +13,8 @@ router.post('/create-conversation', async (req, res) => {
       body: JSON.stringify({
         replica_id: "r9fa0878977a",
         conversation_name: "Tavus Chat Session",
+        persona_id: "",
+        conversational_context: "",
         properties: {
           max_call_duration: 3600,
           participant_left_timeout: 60,
